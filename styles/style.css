@@ -1,0 +1,20 @@
+html, body{
+    background-image: url('../assets/night.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    min-height: 100vh;
+    color:rgb(66, 138, 209);
+    text-align: center;
+}
+
+.btn-option{
+    background-color: rgb(27, 113, 199);
+    border-color: rgb(0, 83, 166);
+    margin-top: 20vh;
+}
+
+.backBtn{
+    font-size:xx-large;
+    color:rgb(88, 134, 181);
+}
