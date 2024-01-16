@@ -1,0 +1,9 @@
+.roundsBtn{
+    background-color: rgb(27, 113, 199);
+    border-color: rgb(0, 83, 166);
+}
+
+.icon{
+    border-radius: 10px;
+    margin: 20px;
+}

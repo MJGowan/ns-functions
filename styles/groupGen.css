@@ -1,4 +1,6 @@
 .myTable{
     background-color: aliceblue;
     margin: 10px;
+    border-radius: 15px;
+    padding: 15px;
 }

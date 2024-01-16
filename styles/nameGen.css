@@ -1,5 +1,9 @@
 .prevStudentTable{
+    min-width: 50%;
     max-width: 70%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .rndBtn{

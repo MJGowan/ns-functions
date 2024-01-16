@@ -1,19 +1,61 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NS - Rock Paper Scissors</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/rps.css">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NS - Rock Paper Scissors</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/rps.css">
 </head>
-  <body>
-    <h1 class="my-5">Rock Paper Scissors</h1>
 
+<body>
+  <h1 class="my-5"><span class="backBtn" id="backBtn">
+      << </span>Rock Paper Scissors</h1>
 
-    <!-- No Touch -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src=""></script>
+  <div class="container" id="roundSelection">
+    <div class="row">
+      <div class="col">
+        <button id="oneRoundBtn" type="button" class="btn roundsBtn">One Round</button>
+      </div>
+      <div class="col">
+        <button id="fiveRoundBtn" type="button" class="btn roundsBtn">Five Rounds</button>
+      </div>
+      <div class="col">
+        <button id="sevenRoundBtn" type="button" class="btn roundsBtn">Seven Rounds</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5 choices">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <button id="rockBtn" type="button" class="btn">
+          <img class="icon" src="../assets/rock.png">
+        </button>
+      </div>
+      <div class="col">
+        <button id="paperBtn" type="button" class="btn">
+          <img class="icon" src="../assets/paper.png">
+        </button>
+      </div>
+      <div class="col">
+        <button id="scissorsBtn" type="button" class="btn">
+          <img class="icon" src="../assets/scissors.png">
+        </button>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+
+  <!-- No Touch -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="../scripts/rps.js"></script>
 </body>
+
 </html>
